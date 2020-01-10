@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="coke">
+  <packagedElement xmi:type="uml:DataType" xmi:id="_XXCjEf7HEeiLwYKm2OrD4Q" name="Object"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GLSMQ_7IEeiLwYKm2OrD4Q" name="message">
+    <packagedElement xmi:type="uml:Class" xmi:id="_GLSMRP7IEeiLwYKm2OrD4Q" name="Message"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nokbYv7IEeiLwYKm2OrD4Q" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_nokbY_7IEeiLwYKm2OrD4Q" name="awt">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nokbZP7IEeiLwYKm2OrD4Q" name="event">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_nokbZf7IEeiLwYKm2OrD4Q" name="ActionEvent"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_nokbZv7IEeiLwYKm2OrD4Q" name="ActionListener"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nokbZ_7IEeiLwYKm2OrD4Q" name="javax">
+    <packagedElement xmi:type="uml:Package" xmi:id="_nokbaP7IEeiLwYKm2OrD4Q" name="swing">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nokbaf7IEeiLwYKm2OrD4Q" name="JButton"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nokbav7IEeiLwYKm2OrD4Q" name="JCheckBox"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nokba_7IEeiLwYKm2OrD4Q" name="JFrame"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nokbbP7IEeiLwYKm2OrD4Q" name="JLabel"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nokbbf7IEeiLwYKm2OrD4Q" name="JOptionPane"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nokbbv7IEeiLwYKm2OrD4Q" name="JPanel"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nokbb_7IEeiLwYKm2OrD4Q" name="JRadioButton"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nokbcP7IEeiLwYKm2OrD4Q" name="JScrollPane"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nokbcf7IEeiLwYKm2OrD4Q" name="JTextArea"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nokbcv7IEeiLwYKm2OrD4Q" name="coke">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_nokbc_7IEeiLwYKm2OrD4Q" name="Coca_ColaFactory"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_nokbdP7IEeiLwYKm2OrD4Q" name="CokeFactory"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_nokbdf7IEeiLwYKm2OrD4Q" name="PepsiFactory"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nokbdv7IEeiLwYKm2OrD4Q" name="company">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_nokbd_7IEeiLwYKm2OrD4Q" name="Coca_ColaCompany"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_nokbeP7IEeiLwYKm2OrD4Q" name="PepsiCompany"/>
+  </packagedElement>
+</uml:Model>
